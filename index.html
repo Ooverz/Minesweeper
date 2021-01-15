@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset ="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title> Minesweeper </title>
+	</head>
+
+	<body>
+		<section class="square">
+			<div class="li 1">
+				<div class="co 1"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 2"><img src="./img/2.png" alt="deux" id="img"/></div>
+				<div class="co 3"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 4"><img src="./img/2.png" alt="deux" id="img"/></div>
+				<div class="co 5"><img src="./img/5.png" alt="bomb" id="img"/></div>
+				<div class="co 6"><img src="./img/2.png" alt="deux" id="img"/></div>
+				<div class="co 7"><img src="./img/4.png" alt="bomb" id="case"
+					onmouseover="this.src='./img/3.png'"
+					onmouseout="this.src='./img/4.png'"/></div>
+				<div class="co 8"><img src="./img/4.png" alt="bomb" id="case"
+					onmouseover="this.src='./img/vol.png'"
+					onmouseout="this.src='./img/4.png'"/></div>
+			</div>
+			<div class="li 2">
+				<div class="co 1"><img src="./img/5.png" alt="bomb" id="img"/></div>
+				<div class="co 2"><img src="./img/2.png" alt="deux" id="img"/></div>
+				<div class="co 3"><img src="./img/5.png" alt="bomb" id="img"/></div>
+				<div class="co 4"><img src="./img/2.png" alt="deux" id="img"/></div>
+				<div class="co 5"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 6"><img src="./img/3.png" alt="bomb" id="img"/></div>
+				<div class="co 7"><img src="./img/5.png" alt="bomb" id="img"/></div>
+				<div class="co 8"><img src="./img/4.png" alt="bomb" id="case"
+					onmouseover="this.src='./img/3.png'"
+					onmouseout="this.src='./img/4.png'"/></div>
+			</div>
+			<div class="li 3">
+				<div class="co 1"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 2"><img src="./img/2.png" alt="deux" id="img"/></div>
+				<div class="co 3"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 4"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 5"></div>
+				<div class="co 6"><img src="./img/3.png" alt="bomb" id="img"/></div>
+				<div class="co 7"><img src="./img/5.png" alt="bomb" id="img"/></div>
+				<div class="co 8"><img src="./img/4.png" alt="bomb" id="case"
+					onmouseover="this.src='./img/vol.png'"
+					onmouseout="this.src='./img/4.png'"/></div>
+			</div>
+			<div class="li 4">
+				<div class="co 1"></div>
+				<div class="co 2"></div>
+				<div class="co 3"></div>
+				<div class="co 4"></div>
+				<div class="co 5"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 6"><img src="./img/3.png" alt="bomb" id="img"/></div>
+				<div class="co 7"><img src="./img/5.png" alt="bomb" id="img"/></div>
+				<div class="co 8"><img src="./img/4.png" alt="bomb" id="case"
+					onmouseover="this.src='./img/3.png'"
+					onmouseout="this.src='./img/4.png'"/></div>
+			</div>
+			<div class="li 5">
+				<div class="co 1"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 2"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 3"></div>
+				<div class="co 4"></div>
+				<div class="co 5"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 6"><img src="./img/5.png" alt="bomb" id="img"/></div>
+				<div class="co 7"><img src="./img/4.png" alt="bomb" id="case"
+					onmouseover="this.src='./img/vol.png'"
+					onmouseout="this.src='./img/4.png'"/></div>
+				<div class="co 8"><img src="./img/4.png" alt="bomb" id="case"
+					onmouseover="this.src='./img/3.png'"
+					onmouseout="this.src='./img/4.png'"/></div>
+			</div>
+			<div class="li 6">
+				<div class="co 1"><img src="./img/5.png" alt="bomb" id="img"/></div>
+				<div class="co 2"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 3"></div>
+				<div class="co 4"></div>
+				<div class="co 5"><img src="./img/2.png" alt="deux" id="img"/></div>
+				<div class="co 6"><img src="./img/2.png" alt="deux" id="img"/></div>
+				<div class="co 7"><img src="./img/3.png" alt="bomb" id="img"/></div>
+				<div class="co 8"><img src="./img/5.png" alt="bomb" id="img"/></div>
+			</div>
+			<div class="li 7">
+				<div class="co 1"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 2"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 3"></div>
+				<div class="co 4"></div>
+				<div class="co 5"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 6"><img src="./img/5.png" alt="bomb" id="img"/></div>
+				<div class="co 7"><img src="./img/4.png" alt="bomb" id="case"
+					onmouseover="this.src='./img/3.png'"
+					onmouseout="this.src='./img/4.png'"/></div>
+				<div class="co 8"><img src="./img/4.png" alt="bomb" id="case"
+					onmouseover="this.src='./img/3.png'"
+					onmouseout="this.src='./img/4.png'"/></div>
+			</div>
+			<div class="li 8">
+				<div class="co 1"></div>
+				<div class="co 2"></div>
+				<div class="co 3"></div>
+				<div class="co 4"></div>
+				<div class="co 5"><img src="./img/1.png" alt="un" id="img"/></div>
+				<div class="co 6"><img src="./img/4.png" alt="bomb" id="case"
+					onmouseover="this.src='./img/1.png'"
+					onmouseout="this.src='./img/4.png'"/></div>
+				<div class="co 7"><img src="./img/4.png" alt="bomb" id="case" 
+					onmouseover="this.src='./img/3.png'"
+					onmouseout="this.src='./img/4.png'"/></div>
+				<div class="co 8"><img src="./img/4.png" alt="bomb" id="case"
+					onmouseover="this.src='./img/vol.png'"
+					onmouseout="this.src='./img/4.png'"/></div>
+			</div>
+		</section>
+	</body>
+</html>

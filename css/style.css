@@ -1,0 +1,40 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90vw;
+	height: 90vh;
+	background-color: grey;
+}
+
+.square{
+	border: 15px groove lightgrey;
+	height: 500px;
+	width: 500px;
+	display: flex;
+}
+
+.co{
+	width: 59.5px;
+	height: 59.5px;
+	background-color: #b9b9b9;
+	border-bottom: 3px dotted black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.li{
+	border-right: 3px dotted black;
+	background-color: #b9b9b9;
+}
+
+#img{
+	width: 60%;
+}
+
+#case{
+	width: 105%;
+	height: 108%;
+}
